@@ -5,12 +5,13 @@ body {
 /* Hero Section */
 
 #Hero-Section {
-  background-image: url("../img/bg-hero.jpg");
+  background: rgba(0,0,0,0.5) url("../img/banner.avif");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left;
+  background-blend-mode: darken;
+  
 }
-
 /* Mis trabajos */
 
 #Mis-trabajos .image-top {
